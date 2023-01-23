@@ -9,9 +9,9 @@
 </groups>
   <test thread-count="5" parallel="tests" name="Test">
     <classes>
-      <class name="com.ProjectMaven.SampleTest.Delete"/>
+      <class name="com.ProjectMaven.SampleTest.DeleteTest"/>
       <class name="com.ProjectMaven.SampleTest.CreateTest"/>
-      <class name="com.ProjectMaven.SampleTest.Update"/>
+      <class name="com.ProjectMaven.SampleTest.UpdateTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

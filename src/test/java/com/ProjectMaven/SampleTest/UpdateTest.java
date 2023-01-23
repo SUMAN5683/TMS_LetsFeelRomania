@@ -3,7 +3,7 @@ package com.ProjectMaven.SampleTest;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class Update {
+public class UpdateTest {
 	@Test(groups = "smoke")
 	public void updateTest() {
 		Reporter.log("project updated");

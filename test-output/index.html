@@ -109,12 +109,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.Delete" class="method navigator-link" hash-for-method="deleteTest">deleteTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.DeleteTest" class="method navigator-link" hash-for-method="deleteTest">deleteTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.Delete" class="method navigator-link" hash-for-method="deleteTestData">deleteTestData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.DeleteTest" class="method navigator-link" hash-for-method="deleteTestData">deleteTestData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,12 +124,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.Update" class="method navigator-link" hash-for-method="updateTest">updateTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.UpdateTest" class="method navigator-link" hash-for-method="updateTest">updateTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.Update" class="method navigator-link" hash-for-method="updatetestdata">updatetestdata</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.ProjectMaven.SampleTest.UpdateTest" class="method navigator-link" hash-for-method="updatetestdata">updatetestdata</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -147,7 +147,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ProjectMaven.SampleTest.Delete</span>
+              <span class="class-name">com.ProjectMaven.SampleTest.DeleteTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -191,7 +191,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ProjectMaven.SampleTest.Update</span>
+              <span class="class-name">com.ProjectMaven.SampleTest.UpdateTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -234,9 +234,9 @@
   &lt;/groups&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.ProjectMaven.SampleTest.Delete&quot;/&gt;
+      &lt;class name=&quot;com.ProjectMaven.SampleTest.DeleteTest&quot;/&gt;
       &lt;class name=&quot;com.ProjectMaven.SampleTest.CreateTest&quot;/&gt;
-      &lt;class name=&quot;com.ProjectMaven.SampleTest.Update&quot;/&gt;
+      &lt;class name=&quot;com.ProjectMaven.SampleTest.UpdateTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -319,33 +319,33 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'deleteTest')
-data.setCell(0, 2, 'com.ProjectMaven.SampleTest.Delete')
-data.setCell(0, 3, 11);
+data.setCell(0, 2, 'com.ProjectMaven.SampleTest.DeleteTest')
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'deleteTestData')
-data.setCell(1, 2, 'com.ProjectMaven.SampleTest.Delete')
+data.setCell(1, 2, 'com.ProjectMaven.SampleTest.DeleteTest')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'update')
+data.setCell(2, 1, 'createTest')
 data.setCell(2, 2, 'com.ProjectMaven.SampleTest.CreateTest')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'updateTest')
-data.setCell(3, 2, 'com.ProjectMaven.SampleTest.Update')
+data.setCell(3, 2, 'com.ProjectMaven.SampleTest.UpdateTest')
 data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'updatetestdata')
-data.setCell(4, 2, 'com.ProjectMaven.SampleTest.Update')
+data.setCell(4, 2, 'com.ProjectMaven.SampleTest.UpdateTest')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'createTest')
+data.setCell(5, 1, 'update')
 data.setCell(5, 2, 'com.ProjectMaven.SampleTest.CreateTest')
 data.setCell(5, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 67 ms</span>
+              <span class="suite-total-time">Total running time: 62 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -356,6 +356,12 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">deleteTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">project deleted</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">deleteTestData</span>
               <div class="reporter-method-output-div">
@@ -372,12 +378,6 @@ return data;
               <span class="reporter-method-name">updatetestdata</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">project data updated</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">deleteTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">project deleted</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -401,32 +401,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ProjectMaven.SampleTest.Delete</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.ProjectMaven.SampleTest.DeleteTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deleteTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteTestData</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ProjectMaven.SampleTest.CreateTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createTest</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">update</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ProjectMaven.SampleTest.Update</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.ProjectMaven.SampleTest.UpdateTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">updateTest</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">updatetestdata</span>

@@ -17,28 +17,44 @@
       <![CDATA[project data updated]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-01-23T12:19:14 IST" name="Suite" finished-at="2023-01-23T12:19:14 IST" duration-ms="67">
+  <suite started-at="2023-01-23T12:32:41 IST" name="Suite" finished-at="2023-01-23T12:32:41 IST" duration-ms="62">
     <groups>
       <group name="regression">
         <method signature="CreateTest.update()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" name="update" class="com.ProjectMaven.SampleTest.CreateTest"/>
-        <method signature="Delete.deleteTest()[pri:0, instance:com.ProjectMaven.SampleTest.Delete@57af006c]" name="deleteTest" class="com.ProjectMaven.SampleTest.Delete"/>
-        <method signature="Update.updatetestdata()[pri:0, instance:com.ProjectMaven.SampleTest.Update@49c7b90e]" name="updatetestdata" class="com.ProjectMaven.SampleTest.Update"/>
+        <method signature="DeleteTest.deleteTest()[pri:0, instance:com.ProjectMaven.SampleTest.DeleteTest@57af006c]" name="deleteTest" class="com.ProjectMaven.SampleTest.DeleteTest"/>
+        <method signature="UpdateTest.updatetestdata()[pri:0, instance:com.ProjectMaven.SampleTest.UpdateTest@49c7b90e]" name="updatetestdata" class="com.ProjectMaven.SampleTest.UpdateTest"/>
       </group> <!-- regression -->
       <group name="smoke">
         <method signature="CreateTest.createTest()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" name="createTest" class="com.ProjectMaven.SampleTest.CreateTest"/>
         <method signature="CreateTest.update()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" name="update" class="com.ProjectMaven.SampleTest.CreateTest"/>
-        <method signature="Delete.deleteTestData()[pri:0, instance:com.ProjectMaven.SampleTest.Delete@57af006c]" name="deleteTestData" class="com.ProjectMaven.SampleTest.Delete"/>
-        <method signature="Update.updateTest()[pri:0, instance:com.ProjectMaven.SampleTest.Update@49c7b90e]" name="updateTest" class="com.ProjectMaven.SampleTest.Update"/>
-        <method signature="Update.updatetestdata()[pri:0, instance:com.ProjectMaven.SampleTest.Update@49c7b90e]" name="updatetestdata" class="com.ProjectMaven.SampleTest.Update"/>
+        <method signature="DeleteTest.deleteTestData()[pri:0, instance:com.ProjectMaven.SampleTest.DeleteTest@57af006c]" name="deleteTestData" class="com.ProjectMaven.SampleTest.DeleteTest"/>
+        <method signature="UpdateTest.updateTest()[pri:0, instance:com.ProjectMaven.SampleTest.UpdateTest@49c7b90e]" name="updateTest" class="com.ProjectMaven.SampleTest.UpdateTest"/>
+        <method signature="UpdateTest.updatetestdata()[pri:0, instance:com.ProjectMaven.SampleTest.UpdateTest@49c7b90e]" name="updatetestdata" class="com.ProjectMaven.SampleTest.UpdateTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-01-23T12:19:14 IST" name="Test" finished-at="2023-01-23T12:19:14 IST" duration-ms="67">
+    <test started-at="2023-01-23T12:32:41 IST" name="Test" finished-at="2023-01-23T12:32:41 IST" duration-ms="62">
+      <class name="com.ProjectMaven.SampleTest.DeleteTest">
+        <test-method signature="deleteTest()[pri:0, instance:com.ProjectMaven.SampleTest.DeleteTest@57af006c]" started-at="2023-01-23T12:32:41 IST" name="deleteTest" finished-at="2023-01-23T12:32:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[project deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+        <test-method signature="deleteTestData()[pri:0, instance:com.ProjectMaven.SampleTest.DeleteTest@57af006c]" started-at="2023-01-23T12:32:41 IST" name="deleteTestData" finished-at="2023-01-23T12:32:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[project data deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTestData -->
+      </class> <!-- com.ProjectMaven.SampleTest.DeleteTest -->
       <class name="com.ProjectMaven.SampleTest.CreateTest">
-        <test-method signature="createTest()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" started-at="2023-01-23T12:19:14 IST" name="createTest" finished-at="2023-01-23T12:19:14 IST" duration-ms="1" status="PASS">
+        <test-method signature="createTest()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" started-at="2023-01-23T12:32:41 IST" name="createTest" finished-at="2023-01-23T12:32:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method signature="update()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" started-at="2023-01-23T12:19:14 IST" name="update" finished-at="2023-01-23T12:19:14 IST" duration-ms="2" status="PASS">
+        <test-method signature="update()[pri:0, instance:com.ProjectMaven.SampleTest.CreateTest@73700b80]" started-at="2023-01-23T12:32:41 IST" name="update" finished-at="2023-01-23T12:32:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[project updated]]>
@@ -46,38 +62,22 @@
           </reporter-output>
         </test-method> <!-- update -->
       </class> <!-- com.ProjectMaven.SampleTest.CreateTest -->
-      <class name="com.ProjectMaven.SampleTest.Delete">
-        <test-method signature="deleteTest()[pri:0, instance:com.ProjectMaven.SampleTest.Delete@57af006c]" started-at="2023-01-23T12:19:14 IST" name="deleteTest" finished-at="2023-01-23T12:19:14 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[project deleted]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteTest -->
-        <test-method signature="deleteTestData()[pri:0, instance:com.ProjectMaven.SampleTest.Delete@57af006c]" started-at="2023-01-23T12:19:14 IST" name="deleteTestData" finished-at="2023-01-23T12:19:14 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[project data deleted]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteTestData -->
-      </class> <!-- com.ProjectMaven.SampleTest.Delete -->
-      <class name="com.ProjectMaven.SampleTest.Update">
-        <test-method signature="updateTest()[pri:0, instance:com.ProjectMaven.SampleTest.Update@49c7b90e]" started-at="2023-01-23T12:19:14 IST" name="updateTest" finished-at="2023-01-23T12:19:14 IST" duration-ms="1" status="PASS">
+      <class name="com.ProjectMaven.SampleTest.UpdateTest">
+        <test-method signature="updateTest()[pri:0, instance:com.ProjectMaven.SampleTest.UpdateTest@49c7b90e]" started-at="2023-01-23T12:32:41 IST" name="updateTest" finished-at="2023-01-23T12:32:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[project updated]]>
             </line>
           </reporter-output>
         </test-method> <!-- updateTest -->
-        <test-method signature="updatetestdata()[pri:0, instance:com.ProjectMaven.SampleTest.Update@49c7b90e]" started-at="2023-01-23T12:19:14 IST" name="updatetestdata" finished-at="2023-01-23T12:19:14 IST" duration-ms="1" status="PASS">
+        <test-method signature="updatetestdata()[pri:0, instance:com.ProjectMaven.SampleTest.UpdateTest@49c7b90e]" started-at="2023-01-23T12:32:41 IST" name="updatetestdata" finished-at="2023-01-23T12:32:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[project data updated]]>
             </line>
           </reporter-output>
         </test-method> <!-- updatetestdata -->
-      </class> <!-- com.ProjectMaven.SampleTest.Update -->
+      </class> <!-- com.ProjectMaven.SampleTest.UpdateTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
