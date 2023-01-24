@@ -3,8 +3,8 @@
 <suite thread-count="1" parallel="tests" name="Suite">
 <groups>
 <run>
+
 <include name="regression"></include>
-<include name="smoke"></include>
 </run>
 </groups>
   <test thread-count="5" parallel="tests" name="Test">

@@ -10,7 +10,10 @@ public class CreateTest {
 	}
 	@Test(groups = {"smoke","regression"})
 	public void update() {
-		Reporter.log("project updated",true);
+		Reporter.log("project updated",true);	
+	}
+	@Test(groups = "smoke")
+	public void newtest() {
 		
 	}
 
